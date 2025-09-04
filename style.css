@@ -6,6 +6,7 @@ body
     align-items: center;
     /* min-height: 100vh; */
     margin: 0;
+    position: relative; /* Necesario para posicionar el botón de tema */
 }
 
 .arimo_normal {
@@ -17,6 +18,7 @@ body
 .container {
     display: flex;
     flex-direction: column;
+    position: relative; /* Clave para posicionar el botón hijo */
     justify-content: flex-start; /* 'top' no es un valor válido, 'flex-start' es el correcto */
     align-items: center;
     margin: 10px auto 0; /* top: 10px, right/left: auto, bottom: 0 */
@@ -32,6 +34,26 @@ body
     border-radius: 43px;
    box-shadow:  16px 16px 16px 10px #a2afc2,
              -10px -10px 16px #C1CAD7;
+}
+
+.theme-toggle-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #E3ECFE;
+    box-shadow: 5px 5px 10px #a2afc2, -5px -5px 10px #ffffff;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+.theme-toggle-button:hover {
+    transform: scale(1.1);
 }
 .hero {
     display: flex;
