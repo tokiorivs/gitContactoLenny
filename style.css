@@ -4,7 +4,7 @@ body
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     margin: 0;
 }
 
@@ -22,14 +22,15 @@ body
     margin: 0 auto;
     width: 100%;
     max-width: 440px;
-    /* max-height: 844px; */
+    min-height: 100%;
+    max-height: 844px;
     overflow-y: auto; /* Permite scroll si el contenido es más alto */
     background-color: #E3ECFE;
     padding-top: 40px; /* Añade espacio en la parte superior */
     padding-bottom: 40px;
     gap: 30px; /* Espacio entre la imagen y los botones */
     border-radius: 43px;
-   box-shadow:  16px 16px 16px #a2afc2,
+   box-shadow:  16px 16px 16px 10px #a2afc2,
              -10px -10px 16px #C1CAD7;
 }
 .hero {
