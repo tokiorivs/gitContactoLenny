@@ -14,8 +14,9 @@ body
     flex-direction: column;
     justify-content: flex-start; /* 'top' no es un valor válido, 'flex-start' es el correcto */
     align-items: center;
-    width: 400px;
+    width: 100%;
     margin: 0 auto;
+    max-width: 956px;
     height: 800px;
     background-color: #E3ECFE;
     padding-top: 60px; /* Añade espacio en la parte superior */
