@@ -22,7 +22,7 @@ body
     margin: 0 auto;
     width: 100%;
     max-width: 440px;
-    min-height: 100%;
+    min-height: 780px;
     max-height: 844px;
     overflow-y: auto; /* Permite scroll si el contenido es más alto */
     background-color: #E3ECFE;
