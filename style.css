@@ -1,6 +1,11 @@
 body
 {
     background-color: #D3E1F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .arimo_normal {
@@ -14,21 +19,22 @@ body
     flex-direction: column;
     justify-content: flex-start; /* 'top' no es un valor válido, 'flex-start' es el correcto */
     align-items: center;
-    width: 100%;
     margin: 0 auto;
-    max-width: 956px;
-    height: 800px;
+    width: 100%;
+    max-width: 440px;
+    max-height: 844px;
+    overflow-y: auto; /* Permite scroll si el contenido es más alto */
     background-color: #E3ECFE;
     padding-top: 60px; /* Añade espacio en la parte superior */
+    padding-bottom: 60px;
     gap: 50px; /* Espacio entre la imagen y los botones */
     border-radius: 43px;
-  /* background: #BFCEE4; */
-  box-shadow:  16px 16px 16px #a2afc2,
+   box-shadow:  16px 16px 16px #a2afc2,
              -10px -10px 16px #C1CAD7;
 }
 .foto {
-    width: 200px; /* Define un tamaño para la imagen */
-    height: 200px;
+    width: 150px; /* Define un tamaño para la imagen */
+    height: 150px;
     border-radius: 50%; /* Esto hace que la imagen sea redonda */
     object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
     border: 5px solid white; /* Un borde opcional para que resalte */
