@@ -19,7 +19,7 @@ body
     flex-direction: column;
     justify-content: flex-start; /* 'top' no es un valor válido, 'flex-start' es el correcto */
     align-items: center;
-    margin: 0 auto;
+    margin: 10px auto 0; /* top: 10px, right/left: auto, bottom: 0 */
     width: 100%;
     max-width: 400px;
     min-height: 780px;
