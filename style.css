@@ -45,7 +45,7 @@ body
     border-radius: 50%; /* Esto hace que la imagen sea redonda */
     object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
     border: 5px solid white; /* Un borde opcional para que resalte */
-    box-shadow:  15px 15px 30px #8996a8,
+    box-shadow:  15px 15px 30px #C0B4DB,
              -15px -15px 30px #d7eaff;
 }
 .titles__container {
@@ -63,7 +63,7 @@ body
 }
 /* From Uiverse.io by marcelodolza */ 
 .button {
-  --primary: #ff5569;
+  --primary: #DF80A3;
   --neutral-1: #f7f8f7;
   --neutral-2: #e7e7e7;
   --radius: 14px;
@@ -86,6 +86,7 @@ body
   font-style: normal;
   font-size: 18px;
   font-weight: 600;
+  color: #6C738F;
 }
 .button:hover {
   transform: scale(1.02);
