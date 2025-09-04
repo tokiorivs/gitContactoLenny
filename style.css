@@ -34,6 +34,10 @@ body
     border-radius: 43px;
    box-shadow:  16px 16px 16px 10px #a2afc2,
              -10px -10px 16px #C1CAD7;
+   /* Estilos para la imagen de fondo */
+   background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+   background-position: center; /* Centra la imagen */
+   transition: background-image 0.5s ease-in-out; /* Transición suave al cambiar de imagen */
 }
 
 .theme-toggle-button {
