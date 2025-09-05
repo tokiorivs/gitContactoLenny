@@ -12,8 +12,8 @@ body
 .arimo_normal {
   font-family: "Arimo", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+  font-weight: 600;
+  font-style: bold;
 }
 .container {
     display: flex;
@@ -27,7 +27,7 @@ body
     min-height: 780px;
     max-height: 844px;
     overflow-y: auto; /* Permite scroll si el contenido es más alto */
-    background-color: #E3ECFE;
+    background-color: #E7F0FF;
     padding-top: 40px; /* Añade espacio en la parte superior */
     padding-bottom: 40px;
     gap: 30px; /* Espacio entre la imagen y los botones */
@@ -63,7 +63,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px; /* Espacio entre la foto y los títulos */
+    gap: 20px; /* Espacio entre la foto y los títulos */
 }
 .foto {
     width: 150px; /* Define un tamaño para la imagen */
@@ -71,15 +71,36 @@ body
     border-radius: 50%; /* Esto hace que la imagen sea redonda */
     object-fit: cover; /* Asegura que la imagen cubra el espacio sin deformarse */
     border: 5px solid white; /* Un borde opcional para que resalte */
-    box-shadow:  15px 15px 30px #C0B4DB,
-             -15px -15px 30px #d7eaff;
+    box-shadow:  5px 5px 10px #C0B4DB,
+             -1px -1px 10px #d7eaff;
+}
+.title{
+  font-size: 30px;
+  padding: 10px 0px;
+}
+.subtitle{
+  font-size: 16px;
+  padding: 10px;
 }
 .titles__container {
   text-align: center;
-  color: #6C738F;
-  /* color: #333; Opcional: mejora el contraste del texto */
+  /* color: #6C738F; */
+  color: #1A4FFF;
 }
-.buttons_container{
+.container_title {
+  /* height: 100px; */ /* Movido a .container_title */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; /* Espacio entre el título y el subtítulo */
+}
+/* .container_title {
+  background-color: #E3ECFE; 
+  border-radius: 20px; 
+  box-shadow: 5px 5px 10px #a2afc2, 0px 0px 0px #ffffff; 
+  padding: 0px 20px;
+} */
+.buttons_container {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -19,9 +19,10 @@ const container = document.querySelector('.container');
 
 // 2. Crear la lista de imágenes de fondo
 const backgroundImages = [
-  'url("https://images.unsplash.com/photo-1659951525583-de3448450437?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")', // Nueva imagen
-  'url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop")', // Bosque
-  'url("https://images.unsplash.com/photo-1536532184021-da5392b55da1?q=80&w=1935&auto=format&fit=crop")', // Montaña nevada
+  // 'url("https://images.unsplash.com/photo-1659951525583-de3448450437?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")', // Nueva imagen
+  // 'url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop")', // Bosque
+  // 'url("https://images.unsplash.com/photo-1536532184021-da5392b55da1?q=80&w=1935&auto=format&fit=crop")', // Montaña nevada
+  'url("patron_2.jpeg")', // Imagen de patrón local
   'none' // Opción para volver al color sólido original
 ];
 
