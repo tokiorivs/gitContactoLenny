@@ -23,6 +23,7 @@ const backgroundImages = [
   // 'url("https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=1948&auto=format&fit=crop")', // Bosque
   // 'url("https://images.unsplash.com/photo-1536532184021-da5392b55da1?q=80&w=1935&auto=format&fit=crop")', // Montaña nevada
   'url("patron_2.jpeg")', // Imagen de patrón local
+  'url("patron_3.jpeg")', // Imagen de patrón local
   'none' // Opción para volver al color sólido original
 ];
 
