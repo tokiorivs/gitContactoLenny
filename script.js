@@ -25,6 +25,7 @@ const backgroundImages = [
   'url("./images/patron_2.jpeg")', // Imagen de patrón local
   'url("./images/patron_4.jpg")', // Imagen de patrón local
   'url("./images/patron_3.jpeg")', // Imagen de patrón local
+  'url("./images/patrones_5.jpeg")', // Imagen de patrón local
   // 'none' // Opción para volver al color sólido original
 ];
 

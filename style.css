@@ -15,6 +15,12 @@ body
   font-weight: 600;
   font-style: bold;
 }
+.pattaya-regular {
+  font-family: "Pattaya", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -75,12 +81,15 @@ body
              -1px -1px 10px #d7eaff;
 }
 .title{
-  font-size: 30px;
+  font-size: 40px;
   padding: 10px 0px;
+  /* Efecto de resplandor para el título */
+  text-shadow: 0 0 5px rgba(255, 255, 255, 1), 0 0 10px rgba(26, 79, 255, 0.6);
 }
 .subtitle{
-  font-size: 16px;
+  font-size: 26px;
   padding: 10px;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 1), 0 0 10px rgba(26, 79, 255, 0.6);
 }
 .titles__container {
   text-align: center;
